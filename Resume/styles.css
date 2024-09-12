@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgb(229, 229, 229);
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(2, 162, 2);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: #333;
+}
+
+.content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.experience, .education, .skills {
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #e4e4e4;
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.toggle-off {
+    background-color: rgb(160, 189, 244);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.toggle-on {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
