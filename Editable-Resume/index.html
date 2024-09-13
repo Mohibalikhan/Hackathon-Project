@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form">
+        <h1>Editable Resume Builder By Mohib Ali Khan</h1>
+
+        <form id="resumeForm">
+            <label for="name"><b>Name</b></label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email"><b>Email</b></label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="phone no"><b>Phone</b></label>
+            <input type="number" name="phone no" id="phone" >
+
+            <label for="education"><b>Education</b></label>
+            <textarea name="education" id="education" rows="5"  required></textarea>
+
+            <label for="exp"><b>Experience</b></label>
+            <textarea name="Experience" id="experience" rows="5" required></textarea>
+
+            <label for="Skills"><b>Skills</b></label>
+            <textarea name="Skills" id="Skills" rows="5" required></textarea>
+
+            <button type="submit">Generate Your Resume</button>
+            <button id="editButton" type="button">Edit</button>
+            
+        </form>
+
+        <div id="resumeOutput">
+            <!-- Resume will be generated  -->
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
